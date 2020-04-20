@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey1":"login_jwtPrivateKey",
+    "jwtPrivateKey2":"verification_jwtPrivateKey"
+}

@@ -1,0 +1,22 @@
+<% if (error_message!="") { %>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <%= error_message %>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <% } %>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <h6><ul>
+        <li>Name must be atleast 3 characters long</li>
+        <li>Must be valid E-mail</li>
+        <li>Password should be Alteast 6 characters long
+        </li>
+      </ul></h6>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      
