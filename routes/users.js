@@ -78,7 +78,7 @@ router.post("/register", async (req, res) => {
       service: 'gmail',
       auth: {
         user: 'nithinjoyapp@gmail.com',
-        pass: 'mss32.dll'
+        pass: 'xxxxxxxxxxxxxxxxxxxxxxxx'
       }
     });
     
